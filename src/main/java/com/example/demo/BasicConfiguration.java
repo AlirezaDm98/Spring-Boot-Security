@@ -16,6 +16,7 @@ public class BasicConfiguration extends WebSecurityConfigurerAdapter {
                 .inMemoryAuthentication()
                 .withUser("danial")
                 .password("123456789").roles("USER");
+
     }
 
     @Override
